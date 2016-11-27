@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import os, sys, socket, time, string                                #Imports
+from mininet.topo import Topo										#Topo import
 
 class SingleSwitchTopo(Topo):									    #"Single switch	connected to n hosts."
 def build(self,	n=2):
