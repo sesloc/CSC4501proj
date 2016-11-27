@@ -9,7 +9,7 @@ message = "ping"                                                #Messsage to sen
 def attack():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)    #Creating socket
     host = socket.gethostname()                                 #Get local machine name
-    port = 80                                                   #Reserve port number
+    port = 8000                                                 #Reserve port number
 #    sock.connect((host,port))
 
     try:                                                        #Attempt Connections
